@@ -4,6 +4,7 @@ Pendeteksi Kebocoran Air Berbasis IoT Menggunakan ESP32 dan ThingSpeak
 Kebocoran air merupakan masalah yang sering terjadi di rumah, gedung, maupun fasilitas umum. Jika tidak segera diketahui, kebocoran dapat menyebabkan pemborosan air, kerusakan pada bangunan, serta meningkatkan biaya penggunaan air. Oleh karena itu, diperlukan suatu sistem yang mampu mendeteksi kebocoran air secara otomatis sehingga penanganan dapat dilakukan dengan lebih cepat.
 Perkembangan teknologi Internet of Things (IoT) memungkinkan berbagai perangkat elektronik saling terhubung melalui internet. Dengan memanfaatkan ESP32 sebagai mikrokontroler dan ThingSpeak sebagai platform penyimpanan data, informasi mengenai kondisi kebocoran air dapat dipantau secara real-time melalui jaringan internet.
 Pada simulasi menggunakan Wokwi, sensor kebocoran air digantikan dengan potentiometer sebagai simulasi nilai analog sensor. Ketika nilai sensor melebihi batas yang telah ditentukan, ESP32 akan menyalakan LED dan buzzer sebagai indikator adanya kebocoran, kemudian mengirimkan data tersebut ke ThingSpeak untuk ditampilkan dalam bentuk grafik.
+
 2. Tujuan
 
 Merancang sistem pendeteksi kebocoran air berbasis IoT menggunakan ESP32.
