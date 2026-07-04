@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Hilwa Kazhimah",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 17.9, "left": -144.2, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 140.4,
+      "left": -159.4,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 40.8,
+      "left": 165,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "pot1:VCC", "green", [ "v67.2", "h-99.81" ] ],
+    [ "pot1:SIG", "esp:34", "green", [ "v28.8", "h109.81" ] ],
+    [ "pot1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "led1:A", "esp:2", "green", [ "v48", "h196.76" ] ],
+    [ "led1:C", "esp:GND.1", "green", [ "v19.2", "h110.61" ] ],
+    [ "bz1:1", "esp:4", "green", [ "v0" ] ],
+    [ "bz1:2", "esp:GND.2", "green", [ "h38", "v-96" ] ]
+  ],
+  "dependencies": {}
+}
