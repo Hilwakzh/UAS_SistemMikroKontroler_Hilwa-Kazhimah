@@ -36,3 +36,6 @@ Akun ThingSpeak 1
 
 5. Link WokWi
 https://wokwi.com/projects/468573347712949249
+
+6. Link Youtube (Video Demo)
+   https://youtu.be/IYm_fPIXIZk
