@@ -10,19 +10,28 @@ Merancang sistem pendeteksi kebocoran air berbasis IoT menggunakan ESP32.
 Mensimulasikan pembacaan sensor menggunakan potentiometer pada Wokwi.
 Mengirimkan data sensor ke ThingSpeak secara real-time melalui jaringan WiFi.
 Memberikan peringatan menggunakan LED dan buzzer saat terdeteksi indikasi kebocoran air.
+
 3. Alat dan Bahan (Wokwi)
 
 ESP32 DevKit V1 1
+
 Potentiometer (simulasi sensor air) 1
+
 LED Merah 1
+
 Buzzer 1 
+
 Platform Wokwi 1
+
 Akun ThingSpeak 1
+
 4. ScreenShot Wokwi & ThingSpeak
+   
 <img width="1886" height="923" alt="Screenshot 2026-07-04 073033" src="https://github.com/user-attachments/assets/67fba563-e5de-4b2d-aaf9-206abca7f4f6" />
 <img width="1582" height="657" alt="Screenshot 2026-07-04 072954" src="https://github.com/user-attachments/assets/2597cb97-c3a9-4c06-b1d4-3cc00748c374" />
 
 <img width="1890" height="901" alt="Screenshot 2026-07-04 073248" src="https://github.com/user-attachments/assets/d99d51c3-d514-46d8-8fdf-75bf5e94309a" />
 <img width="1512" height="632" alt="Screenshot 2026-07-04 073303" src="https://github.com/user-attachments/assets/78b1efea-f668-43ce-9859-a03e5ba0d2b3" />
+
 5. Link WokWi
 https://wokwi.com/projects/468573347712949249
